@@ -1,0 +1,25 @@
+teraishimaki@teraishimakikinoMacBook-Air ~ % cd ~/Documents
+teraishimaki@teraishimakikinoMacBook-Air Documents % mkdir git_challenge
+teraishimaki@teraishimakikinoMacBook-Air Documents % cd git_challenge
+teraishimaki@teraishimakikinoMacBook-Air git_challenge % git init
+Initialized empty Git repository in /Users/teraishimaki/Documents/git_challenge/.git/
+teraishimaki@teraishimakikinoMacBook-Air git_challenge % echo "Hello World 1" > hello_world.tx
+t
+teraishimaki@teraishimakikinoMacBook-Air git_challenge % 
+teraishimaki@teraishimakikinoMacBook-Air git_challenge % git add hello_world.txt
+teraishimaki@teraishimakikinoMacBook-Air git_challenge % git commit -m "hello_world.txtを追加"
+
+[main (root-commit) 6c40e91] hello_world.txtを追加
+ 1 file changed, 1 insertion(+)
+ create mode 100644 hello_world.txt
+teraishimaki@teraishimakikinoMacBook-Air git_challenge % echo "こんにちは、世界！" >> hello_wo
+rld.txt
+teraishimaki@teraishimakikinoMacBook-Air git_challenge % git add hello_world.txt
+teraishimaki@teraishimakikinoMacBook-Air git_challenge % git commit -m "hello_world.txtに2行目
+を追加"
+[main 068f555] hello_world.txtに2行目を追加
+ 1 file changed, 1 insertion(+)
+teraishimaki@teraishimakikinoMacBook-Air git_challenge % git log --oneline
+068f555 (HEAD -> main) hello_world.txtに2行目を追加
+6c40e91 hello_world.txtを追加
+teraishimaki@teraishimakikinoMacBook-Air git_challenge % 
